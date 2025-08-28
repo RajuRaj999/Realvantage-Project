@@ -18,14 +18,14 @@
     <header>
       <!-- nav section  -->
       <nav>
-        <div class="logo">
+        <div class="logo" id="logo-page">
           <img src="./Images/logo.png" alt="logo" />
         </div>
         <ul class="menu-list">
-          <li><a href="">Home</a></li>
-          <li><a href="">Properties</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Services</a></li>
+          <li><a href="#logo-page">Home</a></li>
+          <li><a href="#properties">Properties</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#service">Services</a></li>
           <li><a href="">Contact</a></li>
         </ul>
         <a class="contact-btn">(778) 321-3122</a>
@@ -33,10 +33,10 @@
         <i class="fa-solid fa-bars" id="menu-symbol" onclick="toggle()"></i>
 
         <ul class="sublist">
-          <li><a href="">Home</a></li>
-          <li><a href="">Properties</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Services</a></li>
+          <li><a href="#logo-page">Home</a></li>
+          <li><a href="#properties">Properties</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#service">Services</a></li>
           <li><a href="">Contact</a></li>
           <li class="sub-contact">(778) 321-3122</li>
         </ul>
@@ -64,10 +64,9 @@
         </div>
       </div>
     </header>
-     
 
     <!-- About section  Start -->
-    <div class="about">
+    <div class="about" id="about-us">
       <div class="content1">
         <h1>About Us</h1>
         <p>
@@ -103,7 +102,7 @@
 
     <!-- Featured Properties Start -->
 
-    <div class="featured-properties">
+    <div class="featured-properties" id="properties">
       <h1>Featured Properties</h1>
       <div class="featured-img">
         <div class="card card1">
@@ -245,135 +244,130 @@
     <!-- featured  section close  -->
 
     <!-- service start  -->
-    <div class="service-offered">
+    <div class="service-offered" id="service">
       <h1 class="heading2">Services Offered</h1>
 
       <div class="service-sublist">
-      <div class="servicelist">
-        <h1>Property Buying</h1>
-        <i class="fa-solid fa-plus symbol"></i>
+        <div class="servicelist">
+          <h1>Property Buying</h1>
+          <i class="fa-solid fa-plus symbol"></i>
+        </div>
+        <div class="description-section">
+          <p>
+            Dive into a seamless home-buying experience with our expert
+            assistance. We guide you through every step, from scheduling
+            property tours to detailed market analysis and negotiating the best
+            purchase terms for you.
+          </p>
+        </div>
       </div>
-      <div class="description-section">
-      <p >
-        Dive into a seamless home-buying experience with our expert assistance.
-        We guide you through every step, from scheduling property tours to
-        detailed market analysis and negotiating the best purchase terms for
-        you.
-      </p>
-      </div>
-      </div>
-
 
       <hr />
       <div class="service-sublist">
-      <div class="servicelist">
-        <h1>Property Selling</h1>
-        <i class="fa-solid fa-plus symbol"></i>
-      </div>
-      <div class="description-section">
-      <p >
-        Entrust us with selling your property. We deliver an unmatched service
-        that includes accurate market evaluations, professional staging,
-        strategic marketing, and skillful negotiation to secure the best deal.
-      </p>
-      </div>
+        <div class="servicelist">
+          <h1>Property Selling</h1>
+          <i class="fa-solid fa-plus symbol"></i>
+        </div>
+        <div class="description-section">
+          <p>
+            Entrust us with selling your property. We deliver an unmatched
+            service that includes accurate market evaluations, professional
+            staging, strategic marketing, and skillful negotiation to secure the
+            best deal.
+          </p>
+        </div>
       </div>
       <hr />
-
-
-        <div class="service-sublist">
-      <div class="servicelist">
-        <h1>Rental Management</h1>
-        <i class="fa-solid fa-plus symbol"></i>
-      </div>
-      <div class="description-section">
-      <p >
-        Enjoy hassle-free rental management with our services. We handle
-        everything from tenant acquisition and lease management to rent
-        collection and maintenance queries, ensuring your rental property
-        thrives.
-      </p>
-      </div>
-    </div>
-      <hr />
-
 
       <div class="service-sublist">
-      <div class="servicelist">
-        <h1>Real Estate Investments</h1>
-        <i class="fa-solid fa-plus symbol"></i>
-      </div>
-      <div class="description-section">
-      <p >
-        Tap into lucrative investment opportunities with our insightful
-        guidance. We provide comprehensive support, including potential return
-        analysis and ongoing property management.
-      </p>
-      </div>
-      </div>
-      <hr />
-
-
-      <div class="service-sublist">
-      <div class="servicelist">
-        <h1>Market Analysis</h1>
-        <i class="fa-solid fa-plus symbol"></i>
-      </div>
-      <div class="description-section">
-      <p >
-        Stay informed with our in-depth market analyses. Make knowledgeable
-        decisions backed by the latest data on market trends and property
-        values.
-      </p>
-      </div>
+        <div class="servicelist">
+          <h1>Rental Management</h1>
+          <i class="fa-solid fa-plus symbol"></i>
+        </div>
+        <div class="description-section">
+          <p>
+            Enjoy hassle-free rental management with our services. We handle
+            everything from tenant acquisition and lease management to rent
+            collection and maintenance queries, ensuring your rental property
+            thrives.
+          </p>
+        </div>
       </div>
       <hr />
 
-
       <div class="service-sublist">
-      <div class="servicelist">
-        <h1>Legal and Financial Consulting</h1>
-        <i class="fa-solid fa-plus symbol"></i>
-      </div>
-      <div class="description-section">
-      <p >
-        Navigate the complexities of real estate transactions with our expert
-        consulting services. We connect you with trusted advisors in legal and
-        financial fields to streamline your experience.
-      </p>
-      </div>
+        <div class="servicelist">
+          <h1>Real Estate Investments</h1>
+          <i class="fa-solid fa-plus symbol"></i>
+        </div>
+        <div class="description-section">
+          <p>
+            Tap into lucrative investment opportunities with our insightful
+            guidance. We provide comprehensive support, including potential
+            return analysis and ongoing property management.
+          </p>
+        </div>
       </div>
       <hr />
 
-
       <div class="service-sublist">
-      <div class="servicelist">
-        <h1>Relocation Services</h1>
-        <i class="fa-solid fa-plus symbol"></i>
-      </div>
-      <div class="description-section">
-      <p >
-        Whether you’re moving into or out of the area, our dedicated relocation
-        services are designed to make your transition smooth and stress-free. We
-        help you sell your current home and find your new dream home.
-      </p>
-      </div>
+        <div class="servicelist">
+          <h1>Market Analysis</h1>
+          <i class="fa-solid fa-plus symbol"></i>
+        </div>
+        <div class="description-section">
+          <p>
+            Stay informed with our in-depth market analyses. Make knowledgeable
+            decisions backed by the latest data on market trends and property
+            values.
+          </p>
+        </div>
       </div>
       <hr />
 
+      <div class="service-sublist">
+        <div class="servicelist">
+          <h1>Legal and Financial Consulting</h1>
+          <i class="fa-solid fa-plus symbol"></i>
+        </div>
+        <div class="description-section">
+          <p>
+            Navigate the complexities of real estate transactions with our
+            expert consulting services. We connect you with trusted advisors in
+            legal and financial fields to streamline your experience.
+          </p>
+        </div>
+      </div>
+      <hr />
 
       <div class="service-sublist">
-      <div class="servicelist">
-        <h1>Home Staging and Renovation Advice</h1>
-        <i class="fa-solid fa-plus symbol"></i>
+        <div class="servicelist">
+          <h1>Relocation Services</h1>
+          <i class="fa-solid fa-plus symbol"></i>
+        </div>
+        <div class="description-section">
+          <p>
+            Whether you’re moving into or out of the area, our dedicated
+            relocation services are designed to make your transition smooth and
+            stress-free. We help you sell your current home and find your new
+            dream home.
+          </p>
+        </div>
       </div>
-      <div class="description-section">
-      <p >
-        Enhance your property’s appeal with our professional staging and
-        strategic renovation advice. Attract more buyers and potentially
-        increase your home’s market value with our expert recommendations.
-      </p>
-      </div>
+      <hr />
+
+      <div class="service-sublist">
+        <div class="servicelist">
+          <h1>Home Staging and Renovation Advice</h1>
+          <i class="fa-solid fa-plus symbol"></i>
+        </div>
+        <div class="description-section">
+          <p>
+            Enhance your property’s appeal with our professional staging and
+            strategic renovation advice. Attract more buyers and potentially
+            increase your home’s market value with our expert recommendations.
+          </p>
+        </div>
       </div>
       <hr />
     </div>
