@@ -669,7 +669,7 @@ hr {
 
 .profile-image {
   padding-top: 20px;
-  width: 100%;
+  width: auto;
   height: 300px;
 }
 
