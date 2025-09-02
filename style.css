@@ -671,6 +671,10 @@ hr {
   padding-top: 20px;
   width: auto;
   height: 300px;
+  padding-left: 20px;
+}
+.men1{
+  padding-left: 30px;
 }
 
 .profile-info {
@@ -712,9 +716,36 @@ hr {
     font-size: 80px;
   }
   .profile-image {
-    margin-left: -15px;
+    padding-left: -35px;
     width: auto;
   }
+  .women{
+    margin-left: -40px;
+  }
+  
+  .men1{
+    margin-left: -40px;
+  }
+  .men2{
+    margin-left: -35px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1336px) {
+  .profile-image{
+    margin-left: -25px;
+  }
+  .men1{
+    margin-left:-15px;
+  }
+}
+  @media screen and (min-width: 912px) and (max-width: 1368px) {
+    .profile-image {
+    padding-left: 40px;
+  }
+  .men1{
+    padding-left: 45px;
+  }
+
 }
 /* team close  */
 /* address section  */
