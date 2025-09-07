@@ -172,6 +172,7 @@ li a{
   .heading{
     top: 40px;
     font-size: 85px;
+    color: red;
   }
   .bottom-content{
     top: -90px;
@@ -202,6 +203,7 @@ li a{
   }
   .heading{
     font-size: 170px;
+    color: green;
   }
   .backgrd2{
     margin-top: -290px;
@@ -240,6 +242,7 @@ li a{
   .heading{
     font-size: 180px;
     padding-top: 20px;
+    color: #280fe5;
   }
   .bottom-content{
     display: flex;
@@ -258,6 +261,7 @@ li a{
 @media screen and (min-width: 1024px) and (max-width: 1366px) {
   .heading{
     font-size: 220px;
+    color: orange;
   }
  .backgrd2{
   margin-top: -370px !important;
@@ -272,6 +276,7 @@ li a{
   .heading{
     font-size: 210px;
     padding-top: 50px;
+    color: yellow;
   }
   .backgrd2{
     margin-top: -370px;
@@ -285,6 +290,7 @@ li a{
 @media screen and (min-width: 540px) and (max-width: 720px) {
   .heading{
     font-size: 125px;
+    color: brown;
   }
   .backgrd2{
     margin-top: -220px;
@@ -297,6 +303,7 @@ li a{
 @media screen and (min-width: 344px) and (max-width: 539px) {
   .heading{
     font-size: 80px;
+    color: rgb(255, 7, 48);
   }
 }
 
