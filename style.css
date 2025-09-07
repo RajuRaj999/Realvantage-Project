@@ -284,6 +284,9 @@ li a{
   .bottom-content{
     top: -40px;
   }
+  .description-section{
+    font-size: 12px;
+  }
  
 
 }
@@ -663,11 +666,14 @@ hr {
   .service-offered {
     margin: 150px 20px;
   }
+  
+}
+@media screen and (min-width: 912px) and (max-width: 1368px) {
+ 
   .description-section{
-    font-size: 16px;
+    font-size: 12px;
   }
 }
-
 
 
 
