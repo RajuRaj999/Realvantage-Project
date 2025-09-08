@@ -425,7 +425,8 @@ li a{
     font-size: 16px;
   }
    .content1 p {
-    font-size: 16px;
+    font-size: 12px;
+    color: red;
   }
 
 }
@@ -672,7 +673,8 @@ hr {
 @media screen and (min-width: 912px) and (max-width: 1368px) {
  
   .description-section{
-    font-size: 10px;
+    font-size: 8px;
+    color: red;
   }
 }
 
