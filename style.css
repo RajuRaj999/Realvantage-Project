@@ -424,6 +424,9 @@ li a{
     width: 400px;
     font-size: 16px;
   }
+   .content1 p {
+    font-size: 20px;
+  }
 
 }
 /* featured-properties start */
@@ -669,7 +672,7 @@ hr {
 @media screen and (min-width: 912px) and (max-width: 1368px) {
  
   .description-section{
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
